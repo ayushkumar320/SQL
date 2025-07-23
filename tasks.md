@@ -2,7 +2,10 @@
  
 ##### Database Setup:
 Create a new database named chai_store_db for managing chai products.
- 
+~~~~sql
+create DATABASE chai_store_db;
+~~~~
+
 ##### Chai Table:
 Create a table called chai_store with the following columns:
 - id: A unique identifier for each chai (auto-incrementing).
